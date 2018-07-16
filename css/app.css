@@ -1,12 +1,71 @@
-#bsquare {
-  color: red;
-  background: blue;
-  height: 200px;
-  width: 400px; }
-
 .flex-container div {
-  background-color: #FFA600;
   height: 1000px;
   width: 1000px; }
+
+#box1 {
+  background: #3D8AE9;
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  margin: 0px;
+  float: left;
+  z-index: -1; }
+
+#box2 {
+  background: #4A4A4A;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  top: 70px;
+  left: 50px;
+  float: left;
+  z-index: 1; }
+
+#box3 {
+  background: #4A4A4A;
+  position: relative;
+  height: 50px;
+  width: 100px;
+  top: 70px;
+  left: 100px;
+  float: left;
+  z-index: 1; }
+
+#box4 {
+  background: #4A4A4A;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  top: 70px;
+  left: 300px; }
+
+#box5 {
+  background: #F8ED00;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  z-index: 1;
+  left: 405px; }
+
+#box6 {
+  background: #D8D8D8;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  left: 605px; }
+
+#box7 {
+  background: #DF0000;
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  left: 805px; }
+
+#box8 {
+  background: #00EAC3;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 64.3%; }
 
 /*# sourceMappingURL=app.css.map */

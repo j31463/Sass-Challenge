@@ -1,11 +1,70 @@
-#bsquare {
-color: red;
-background: blue;
-height: 200px;
-width: 400px;
-}
 .flex-container div {
-    background-color: $orange;
     height: 1000px;
     width: 1000px;
+}
+#box1 {
+background: $blue;
+position: absolute;
+height: 200px;
+width: 400px;
+margin: 0px;
+float: left;
+z-index: -1;
+}
+#box2{
+    background: $grey;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 70px;
+    left: 50px;
+    float: left;
+    z-index: 1;
+}
+#box3{
+    background: $grey;
+    position: relative;
+    height: 50px;
+    width: 100px;
+    top: 70px;
+    left: 100px;
+    float: left;
+    z-index: 1;
+}
+#box4{
+    background: $grey;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 70px;
+    left: 300px; 
+}
+#box5{
+    background: $yellow;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    left: 405px;
+}
+#box6{
+    background: $white;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 605px;
+}
+#box7{
+    background: $red;
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    left: 805px;
+}
+#box8{
+    background: $teal;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 64.3%;
 }
