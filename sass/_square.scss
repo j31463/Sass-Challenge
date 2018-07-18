@@ -77,33 +77,21 @@ z-index: -1;
     top: 108px;
 }
 #box10{
-    background: $red;
-    position: absolute;
-    height: 50px;
-    width: 50px;
+   @include smallBox($pattern1...);
     top: 208px;
 }
 #box11{
-    background: $yellow;
-    position: absolute;
-    height: 50px;
-    width: 50px;
+   @include smallBox($pattern2...);
     top: 208px;
     left: 58px;
 }
 #box12{
-    background: $red;
-    position: absolute;
-    height: 50px;
-    width: 50px;
+    @include smallBox($pattern1...);
     top: 208px;
     left: 108px;
 }
 #box13{
-    background: $yellow;
-    position: absolute;
-    height: 50px;
-    width: 50px;
+    @include smallBox($pattern2...);
     top: 208px;
     left: 158px;
 }
@@ -116,28 +104,90 @@ z-index: -1;
     left: 208px;
 }
 #box15{
-background: $purple;
-position: absolute;
-height: 100px;
-width: 400px;
-top: 208px;
-left: 605px;
+    background: $purple;
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    top: 208px;
+    left: 605px;
 }
 #box16{
-background: $orange;
-position: absolute;
-height: 50px;
-width: 400px;
-top: 258px;
+    background: $orange;
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    top: 258px;
 }
 #box17{
-background: $green;
-position: absolute;
-height: 50px;
-width: 200px;
-top: 258px;
-left: 405px;
+    background: $green;
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    top: 258px;
+    left: 405px;
 }
 #box18{
-
+    background: $grey;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: $line3;
+}
+#box19{
+    background: $yellow;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 508px;
+}
+#box20{
+    background: $orange;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 608px;
+}
+#box21{
+    background: $orange;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 508px;
+    left: 108px;
+}
+#box22{
+    background: $yellow;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 608px;
+    left: 108px;
+}
+#box23{
+    background: $red;
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    top: $line3;
+    left: 208px;
+}
+#box24{
+    @include smallBox($pattern4...);
+    top: 308px;
+    left: 208px;
+}
+#box25{
+    @include smallBox($pattern4...);
+    top: $line3;
+    left: 458px;
+}
+#box26{
+    @include smallBox($pattern3...);
+    top: $line3;
+    left: 508px;
+}
+#box27{
+    @include smallBox($pattern4...);
+    top: $line3;
+    left: 558px;
 }

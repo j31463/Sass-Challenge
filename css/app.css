@@ -138,4 +138,81 @@
   top: 258px;
   left: 405px; }
 
+#box18 {
+  background: #4A4A4A;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: 308px; }
+
+#box19 {
+  background: #F8ED00;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 508px; }
+
+#box20 {
+  background: #FFA600;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 608px; }
+
+#box21 {
+  background: #FFA600;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 508px;
+  left: 108px; }
+
+#box22 {
+  background: #F8ED00;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 608px;
+  left: 108px; }
+
+#box23 {
+  background: #DF0000;
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  top: 308px;
+  left: 208px; }
+
+#box24 {
+  background: #FFFFFF;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 308px;
+  left: 208px; }
+
+#box25 {
+  background: #FFFFFF;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 308px;
+  left: 458px; }
+
+#box26 {
+  background: #59DD00;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 308px;
+  left: 508px; }
+
+#box27 {
+  background: #FFFFFF;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 308px;
+  left: 558px; }
+
 /*# sourceMappingURL=app.css.map */
