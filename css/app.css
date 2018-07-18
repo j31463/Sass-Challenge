@@ -66,6 +66,76 @@
   position: absolute;
   height: 100px;
   width: 100px;
-  left: 64.3%; }
+  left: 905px; }
+
+#box9 {
+  background: #4A4A4A;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 905px;
+  top: 108px; }
+
+#box10 {
+  background: #DF0000;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 208px; }
+
+#box11 {
+  background: #F8ED00;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 208px;
+  left: 58px; }
+
+#box12 {
+  background: #DF0000;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 208px;
+  left: 108px; }
+
+#box13 {
+  background: #F8ED00;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 208px;
+  left: 158px; }
+
+#box14 {
+  background: #D000E6;
+  position: absolute;
+  height: 50px;
+  width: 400px;
+  top: 208px;
+  left: 208px; }
+
+#box15 {
+  background: #A300FF;
+  position: absolute;
+  height: 100px;
+  width: 400px;
+  top: 208px;
+  left: 605px; }
+
+#box16 {
+  background: #FFA600;
+  position: absolute;
+  height: 50px;
+  width: 400px;
+  top: 258px; }
+
+#box17 {
+  background: #297B00;
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  top: 258px;
+  left: 405px; }
 
 /*# sourceMappingURL=app.css.map */
