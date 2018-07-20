@@ -2,44 +2,41 @@
     height: 1000px;
     width: 1000px;
 }
-#box1 {
-background: $blue;
-position: absolute;
-height: 200px;
-width: 400px;
-margin: 0px;
-float: left;
-z-index: -1;
+#blue_large {
+    background: $blue;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    margin: 0px;
+    z-index: -1;
 }
 #box2{
-    background: $grey;
-    position: relative;
+    background: $black;
+    position: absolute;
     height: 50px;
     width: 50px;
     top: 70px;
     left: 50px;
-    float: left;
     z-index: 1;
 }
 #box3{
-    background: $grey;
-    position: relative;
+    background: $black;
+    position: absolute;
     height: 50px;
     width: 100px;
     top: 70px;
-    left: 100px;
-    float: left;
+    left: 150px;
     z-index: 1;
 }
 #box4{
-    background: $grey;
-    position: relative;
+    background: $black;
+    position: absolute;
     height: 50px;
     width: 50px;
     top: 70px;
     left: 300px; 
 }
-#box5{
+#yellow_Med{
     background: $yellow;
     position: absolute;
     height: 200px;
@@ -47,55 +44,55 @@ z-index: -1;
     z-index: 1;
     left: 405px;
 }
-#box6{
-    background: $white;
+#grey_Med{
+    background: $grey;
     position: absolute;
     height: 200px;
     width: 200px;
     left: 605px;
 }
-#box7{
+#red_Med{
     background: $red;
     position: absolute;
     height: 200px;
     width: 100px;
     left: 805px;
 }
-#box8{
+#teal_Small{
     background: $teal;
     position: absolute;
     height: 100px;
     width: 100px;
     left: 905px;
 }
-#box9{
-    background: $grey;
+#black_Small{
+    background: $black;
     position: absolute;
     height: 100px;
     width: 100px;
     left: 905px;
     top: 108px;
 }
-#box10{
-   @include smallBox($pattern1...);
+#red_Xsmall{
+   @include sameBox($pattern1...);
     top: 208px;
 }
-#box11{
-   @include smallBox($pattern2...);
+#yellow_Xsmall{
+   @include sameBox($pattern2...);
     top: 208px;
     left: 58px;
 }
-#box12{
-    @include smallBox($pattern1...);
+#red_Xsmall2{
+    @include sameBox($pattern1...);
     top: 208px;
     left: 108px;
 }
-#box13{
-    @include smallBox($pattern2...);
+#yellow_Xsmall2{
+    @include sameBox($pattern2...);
     top: 208px;
     left: 158px;
 }
-#box14{
+#pink_long{
     background: $pink;
     position: absolute;
     height: 50px;
@@ -103,7 +100,7 @@ z-index: -1;
     top: 208px;
     left: 208px;
 }
-#box15{
+#purple_long{
     background: $purple;
     position: absolute;
     height: 100px;
@@ -111,14 +108,14 @@ z-index: -1;
     top: 208px;
     left: 605px;
 }
-#box16{
+#orange_long{
     background: $orange;
     position: absolute;
     height: 50px;
     width: 400px;
     top: 258px;
 }
-#box17{
+#Dgreen_short{
     background: $green;
     position: absolute;
     height: 50px;
@@ -126,28 +123,25 @@ z-index: -1;
     top: 258px;
     left: 405px;
 }
-#box18{
-    background: $grey;
-    position: absolute;
-    height: 200px;
-    width: 200px;
+#black_med{
+   @include sameBox($blackBox...);
     top: $line3;
 }
-#box19{
+#yellow_small{
     background: $yellow;
     position: absolute;
     height: 100px;
     width: 100px;
     top: 508px;
 }
-#box20{
+#orange_small{
     background: $orange;
     position: absolute;
     height: 100px;
     width: 100px;
     top: 608px;
 }
-#box21{
+#orange_small2{
     background: $orange;
     position: absolute;
     height: 100px;
@@ -155,7 +149,7 @@ z-index: -1;
     top: 508px;
     left: 108px;
 }
-#box22{
+#yellow_small2{
     background: $yellow;
     position: absolute;
     height: 100px;
@@ -163,31 +157,119 @@ z-index: -1;
     top: 608px;
     left: 108px;
 }
-#box23{
+#red_large{
     background: $red;
     position: absolute;
     height: 400px;
+    width: 295px;
+    top: $line3;
+    left: 208px;
+}
+#white_Xsmall{
+    @include sameBox($pattern4...);
+    top: $line3;
+    left: 207px;
+}
+#white_Xsmall2{
+   @extend #white_Xsmall;
+    top: $line3;
+    left: 453px;
+}
+#green_Xsmall{
+    @include sameBox($pattern3...);
+    top: $line3;
+    left: 503px;
+}
+#white_Xsmall3{
+    @extend #white_Xsmall;
+    top: $line3;
+    left: 554px;
+}
+#green_Xsmall2{
+    @extend #green_Xsmall;
+    top: $line3;
+    left: 605px;
+}
+#white_Xsmall4{
+    @extend #white_Xsmall; 
+    top: $line3;
+    left: 655px;
+}
+#green_Xsmall3{
+    @extend #green_Xsmall;
+    top: $line3;
+    left: 705px;
+}
+#white_Xsmall5{
+    @extend #white_Xsmall;
+    top: $line3; 
+    left: 755px;
+}
+#black_med2{
+    @extend #black_med;
+    top: $line3;
+    left: 805px;
+}
+#grey_long{
+    @include sameBox($greyBox...);
+    top: $line3 + 50px;
+    left: 505px;
+}
+#Dgreen_long{
+    background: $green;
+    position: absolute;
+    height: 50px;
     width: 300px;
-    top: $line3;
-    left: 208px;
+    top: $line3 +100px;
+    left: 505px;
 }
-#box24{
-    @include smallBox($pattern4...);
-    top: 308px;
-    left: 208px;
+#grey_long2{
+    @extend #grey_long;
+    top: $line3 + 150px;
+    left: 505px;
 }
-#box25{
-    @include smallBox($pattern4...);
-    top: $line3;
-    left: 458px;
+#teal_large{
+    background: $teal;
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    top: $line3 + 200px;
+    left: 505px;
 }
-#box26{
-    @include smallBox($pattern3...);
-    top: $line3;
-    left: 508px;
+#grey_Med2{
+    @extend #grey_Med;
+    top: $line3 + 200px;
+    left: 805px;
 }
-#box27{
-    @include smallBox($pattern4...);
-    top: $line3;
-    left: 558px;
+#purple_long2{
+    @extend #purple_long;
+    top: 708px;
+    left: 8px;
+}
+#pink_long2{
+    @extend #pink_long;
+    top: 708px;
+    left: 408px;
+}
+#yellow_Xsmall3{
+    @extend #yellow_Xsmall;
+    top: 708px;
+    left: 808px;
+}
+#red_Xsmall3{
+    @extend #red_Xsmall;
+    top: 708px;
+    left: 858px;
+}
+#yellow_Xsmall4{
+
+}
+#red_Xsmall4{
+
+}
+#Dgreen_short2{
+
+}
+#orange_long2{
+
 }

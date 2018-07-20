@@ -1,4 +1,4 @@
-@mixin smallBox($background, $position, $height, $width) {
+@mixin sameBox($background, $position, $height, $width) {
     background: $background;
     position: $position;
     height: $height;
