@@ -10,32 +10,6 @@
   margin: 0px;
   z-index: -1; }
 
-#box2 {
-  background: #4A4A4A;
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  top: 70px;
-  left: 50px;
-  z-index: 1; }
-
-#box3 {
-  background: #4A4A4A;
-  position: absolute;
-  height: 50px;
-  width: 100px;
-  top: 70px;
-  left: 150px;
-  z-index: 1; }
-
-#box4 {
-  background: #4A4A4A;
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  top: 70px;
-  left: 300px; }
-
 #yellow_Med {
   background: #F8ED00;
   position: absolute;
@@ -73,14 +47,14 @@
   left: 905px;
   top: 108px; }
 
-#red_Xsmall, #red_Xsmall3 {
+#red_Xsmall, #red_Xsmall3, #red_Xsmall4 {
   background: #DF0000;
   position: absolute;
   height: 50px;
   width: 50px;
   top: 208px; }
 
-#yellow_Xsmall, #yellow_Xsmall3 {
+#yellow_Xsmall, #yellow_Xsmall3, #yellow_Xsmall4 {
   background: #F8ED00;
   position: absolute;
   height: 50px;
@@ -120,14 +94,14 @@
   top: 208px;
   left: 605px; }
 
-#orange_long {
+#orange_long, #orange_long2 {
   background: #FFA600;
   position: absolute;
   height: 50px;
   width: 400px;
   top: 258px; }
 
-#Dgreen_short {
+#Dgreen_short, #Dgreen_short2 {
   background: #297B00;
   position: absolute;
   height: 50px;
@@ -179,6 +153,27 @@
   width: 295px;
   top: 308px;
   left: 208px; }
+
+#white_med {
+  background: #FFFFFF;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 458px;
+  left: 308px; }
+
+#white_Xsmall6, #white_Xsmall7 {
+  background: #FFFFFF;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 658px;
+  left: 205px; }
+
+#white_Xsmall7 {
+  top: 658px;
+  left: 455px;
+  z-index: 1; }
 
 #white_Xsmall, #white_Xsmall2, #white_Xsmall3, #white_Xsmall4, #white_Xsmall5 {
   background: #FFFFFF;
@@ -271,5 +266,53 @@
 #red_Xsmall3 {
   top: 708px;
   left: 858px; }
+
+#yellow_Xsmall4 {
+  top: 708px;
+  left: 908px; }
+
+#red_Xsmall4 {
+  top: 708px;
+  left: 958px; }
+
+#Dgreen_short2 {
+  top: 758px;
+  left: 408px; }
+
+#orange_long2 {
+  top: 758px;
+  left: 608px; }
+
+#black_Xsmall, #black_Xsmall3, #black_Xsmall4, #black_Xsmall5, #black_Xsmall6 {
+  background: #4A4A4A;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 85px;
+  left: 50px; }
+
+#black_short1 {
+  background: #4A4A4A;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  top: 85px;
+  left: 150px; }
+
+#black_Xsmall3 {
+  left: 300px; }
+
+#black_Xsmall4 {
+  left: 405px;
+  top: 8px;
+  z-index: 1; }
+
+#black_Xsmall5 {
+  top: 158px;
+  left: 555px;
+  z-index: 1; }
+
+#black_Xsmall6 {
+  left: 675px; }
 
 /*# sourceMappingURL=app.css.map */

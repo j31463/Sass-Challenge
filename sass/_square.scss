@@ -10,32 +10,7 @@
     margin: 0px;
     z-index: -1;
 }
-#box2{
-    background: $black;
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    top: 70px;
-    left: 50px;
-    z-index: 1;
-}
-#box3{
-    background: $black;
-    position: absolute;
-    height: 50px;
-    width: 100px;
-    top: 70px;
-    left: 150px;
-    z-index: 1;
-}
-#box4{
-    background: $black;
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    top: 70px;
-    left: 300px; 
-}
+
 #yellow_Med{
     background: $yellow;
     position: absolute;
@@ -165,6 +140,25 @@
     top: $line3;
     left: 208px;
 }
+#white_med{
+    background: $White;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: $line3 + 150px;
+    left: 308px;
+}
+#white_Xsmall6{
+    @include sameBox ($pattern4...);
+    top: $line3 + 350px;
+    left: 205px; 
+}
+#white_Xsmall7{
+    @extend #white_Xsmall6;
+    top: $line3 + 350px;
+    left: 455px;
+    z-index: 1;
+}
 #white_Xsmall{
     @include sameBox($pattern4...);
     top: $line3;
@@ -262,14 +256,55 @@
     left: 858px;
 }
 #yellow_Xsmall4{
-
+    @extend #yellow_Xsmall;
+    top: 708px;
+    left: 908px;
 }
 #red_Xsmall4{
-
+    @extend #red_Xsmall;
+    top: 708px;
+    left: 958px;
 }
 #Dgreen_short2{
-
+    @extend #Dgreen_short;
+    top: 758px;
+    left: 408px;
 }
 #orange_long2{
-
+    @extend #orange_long;
+    top: 758px;
+    left: 608px;
+}
+#black_Xsmall{
+   @include sameBox($smallBlack...);
+   top: 85px;
+   left: 50px;
+}
+#black_short1{
+  background: $black;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  top: 85px;
+  left: 150px;
+}
+#black_Xsmall3{
+    @extend #black_Xsmall;
+    left: 300px;
+}
+#black_Xsmall4{
+    @extend #black_Xsmall;
+    left: 405px;
+    top: 8px;
+    z-index: 1;
+}
+#black_Xsmall5{
+    @extend #black_Xsmall;
+    top: 158px;
+    left: 555px;
+    z-index: 1;
+}
+#black_Xsmall6{
+    @extend #black_Xsmall;
+    left: 675px;
 }
